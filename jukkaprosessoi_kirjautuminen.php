@@ -1,5 +1,9 @@
 <?php
 
-    print("Jukka koodaa?")
+   if($_GET['kayttajatunnus'] == 'jukka') {
+    print("MENI SISAAN");
+   }
+
+   
 
 ?>
