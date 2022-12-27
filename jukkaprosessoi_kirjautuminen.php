@@ -3,7 +3,7 @@
    if($_GET['kayttajatunnus'] == 'jukka') {
     print("MENI SISAAN");
     $kahva = sqlite_yhdista();
-    $kahva->exec('CREATE TABLE foo (bar STRING)');
+    $kahva->exec('INSERT INTO Ennatykset(lentaja, paivamaara) VALUES(\'Jukka\', \'1.1.2011\')');
 
    }
 
