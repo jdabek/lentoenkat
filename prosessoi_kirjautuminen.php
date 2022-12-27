@@ -8,7 +8,7 @@
 
 <?php
 
-    print('$_GET[kayttajatunnus]');
+    print($_POST['kayttajatunnus']);
 
 ?>
 
